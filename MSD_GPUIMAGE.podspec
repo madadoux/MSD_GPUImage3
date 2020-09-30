@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MSD_GPUIMAGE"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "Modified version of GPUImage"
 
   # This description is used to generate tags and improve search results.
