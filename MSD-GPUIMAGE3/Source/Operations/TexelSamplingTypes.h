@@ -1,3 +1,5 @@
+#if __METAL_MACOS__ || __METAL_IOS__
+
 #include <metal_stdlib>
 using namespace metal;
 
@@ -21,4 +23,5 @@ struct NearbyTexelVertexIO
     float2 bottomRightTextureCoordinate [[user(bottomRightTextureCoordinate)]];
 };
 
+#endif /* TexelSamplingTypes_h */
 #endif /* TexelSamplingTypes_h */

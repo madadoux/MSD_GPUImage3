@@ -1,3 +1,6 @@
+#if __METAL_MACOS__ || __METAL_IOS__
+
+
 #include <metal_stdlib>
 using namespace metal;
 
@@ -20,4 +23,5 @@ struct TwoInputVertexIO
     float2 textureCoordinate2 [[user(texturecoord2)]];
 };
 
+#endif
 #endif

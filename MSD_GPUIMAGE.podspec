@@ -71,10 +71,10 @@ more filter and customized already made filters
 
   #  When using multiple platforms
   spec.ios.deployment_target = "9.0"
-  spec.osx.deployment_target = "10.9"
+  spec.osx.deployment_target = "10.11"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-  spec.swift_versions = '4.0'
+  spec.swift_versions = '4.2'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -121,7 +121,7 @@ more filter and customized already made filters
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+spec.frameworks = "Metal"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
