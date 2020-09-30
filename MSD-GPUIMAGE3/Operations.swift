@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+public class Operations {
+    
+   public static func add(a:Int , b:Int ) -> Int {
+        return a + b
+    }
+    
+}
+public func bx() {
+    
+}
