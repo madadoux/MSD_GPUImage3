@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MSD_GPUIMAGE"
-  spec.version      = "0.0.1"
+  spec.version      = "1.1"
   spec.summary      = "Modified version of GPUImage"
 
   # This description is used to generate tags and improve search results.
@@ -71,7 +71,7 @@ more filter and customized already made filters
 
   #  When using multiple platforms
   spec.ios.deployment_target = "9.0"
-  spec.osx.deployment_target = "10.11"
+  spec.osx.deployment_target = "10.13"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   spec.swift_versions = '4.2'
@@ -93,7 +93,7 @@ more filter and customized already made filters
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  spec.source_files = 'MSD-GPUIMAGE3/**/**/*.{h,m,swift}'
+  spec.source_files = 'MSD-GPUIMAGE3/**/**/*.{h,m,swift,metal}'
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"

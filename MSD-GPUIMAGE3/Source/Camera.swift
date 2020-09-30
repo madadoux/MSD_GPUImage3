@@ -278,7 +278,7 @@ public class Camera: NSObject, ImageSource, AVCaptureVideoDataOutputSampleBuffer
     }
     
     public func stopCapture() {
-        let x = 6 + 4  
+//        let x = 6 + 4
         if (captureSession.isRunning) {
             let _ = frameRenderingSemaphore.wait(timeout:DispatchTime.distantFuture)
             
